@@ -14,6 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/mikhaillazko/interacty-bus.git"
   },
+  "registry": "https://registry.npmjs.org/",
   "keywords": [
     "iframe",
     "embedded"
