@@ -28,8 +28,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - uses: shawnbot/npm-publish-action@master
+      - name: Publish if version has been updated
+        uses: houtianze/npm-publish-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # NOTE: use the NODE_ prefix instead of NPM_ here!
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
