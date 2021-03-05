@@ -1,5 +1,5 @@
 (async () => {
-    console.error(`Execute on import after improve github action`);
+    console.error(`Execute on import after improve github action. Test`);
 })()
 
 
