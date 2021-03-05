@@ -12,7 +12,8 @@ on:
 jobs:
   publish-package:
     runs-on: ubuntu-latest
-
+    env:
+      publish_command: "npm"
     steps:
       - uses: actions/checkout@v2
 
