@@ -1,4 +1,5 @@
 const path = require("path");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 config = {
     target: "web",
@@ -13,6 +14,12 @@ config = {
         globalObject: "this",
         umdNamedDefine: true,
     },
+    plugins: [
+        new CleanWebpackPlugin({
+            cleanStaleWebpackAssets: false,
+            cleanOnceBeforeBuildPatterns: [path.resolve(__dirname, "./dist")],
+        }),
+    ],
     watchOptions: {
         aggregateTimeout: 600,
         ignored: /node_modules/,
