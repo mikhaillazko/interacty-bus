@@ -29,7 +29,8 @@ jobs:
 
       - name: Publish if version has been updated
         uses: houtianze/npm-publish-action@master
+        with:
+          publish_command: "npm"
         env:
-          PUBLISH_COMMAND: npm
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
