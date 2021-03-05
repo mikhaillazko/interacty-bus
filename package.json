@@ -1,6 +1,6 @@
 {
-  "name": "@tanzorrteam/interacty-bus",
-  "version": "1.0.17",
+  "name": "@mikhaillazko/interacty-bus",
+  "version": "1.0.18",
   "description": "Lib for communicate between windows",
   "main": "./dist/index.js",
   "scripts": {
