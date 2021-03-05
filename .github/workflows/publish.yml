@@ -12,8 +12,7 @@ on:
 jobs:
   publish-package:
     runs-on: ubuntu-latest
-    env:
-      publish_command: "npm"
+
     steps:
       - uses: actions/checkout@v2
 
@@ -29,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: Publish if version has been updated
-        uses: houtianze/npm-publish-action@master
+        uses: pascalgn/npm-publish-action@1.3.6
         with:
           publish_command: "npm"
         env:
