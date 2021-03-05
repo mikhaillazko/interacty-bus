@@ -22,7 +22,7 @@ jobs:
           node-version: 12
 
       - name: Install dependencies
-        run: npm i
+        run: npm login & npm i
       
       - name: Build
         run: npm run build
