@@ -33,4 +33,4 @@ jobs:
           publish_command: "npm"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_AUTH_TOKEN: "94eb525d-25f1-40cc-af20-3660ee17058e"
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
