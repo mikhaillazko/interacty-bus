@@ -1,6 +1,6 @@
 {
   "name": "interacty-bus",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Lib for communicate between windows",
   "main": "./dist/index.js",
   "scripts": {
