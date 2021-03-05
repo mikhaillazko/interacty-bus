@@ -1,2 +1,2 @@
 # interacty-bus
-any
+Lib for communicate between windows
