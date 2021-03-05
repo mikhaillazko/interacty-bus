@@ -1,6 +1,6 @@
 {
   "name": "interacty-bus",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Lib for communicate between windows",
   "main": "./dist/index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/mikhaillazko/interacty-bus.git"
   },
-  "registry": "https://registry.npmjs.org/",
   "keywords": [
     "iframe",
     "embedded"
